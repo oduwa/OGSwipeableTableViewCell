@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C503ED01944FC2D0064BBBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C503ECF1944FC2D0064BBBC /* Foundation.framework */; };
+		4C503ED21944FC2D0064BBBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C503ED11944FC2D0064BBBC /* CoreGraphics.framework */; };
+		4C503ED41944FC2D0064BBBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C503ED31944FC2D0064BBBC /* UIKit.framework */; };
+		4C503EDA1944FC2D0064BBBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C503ED81944FC2D0064BBBC /* InfoPlist.strings */; };
+		4C503EDC1944FC2D0064BBBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503EDB1944FC2D0064BBBC /* main.m */; };
+		4C503EE01944FC2D0064BBBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503EDF1944FC2D0064BBBC /* AppDelegate.m */; };
+		4C503EE31944FC2D0064BBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C503EE11944FC2D0064BBBC /* Main.storyboard */; };
+		4C503EE61944FC2D0064BBBC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503EE51944FC2D0064BBBC /* MasterViewController.m */; };
+		4C503EE91944FC2D0064BBBC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503EE81944FC2D0064BBBC /* DetailViewController.m */; };
+		4C503EEB1944FC2D0064BBBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C503EEA1944FC2D0064BBBC /* Images.xcassets */; };
+		4C503EF21944FC2D0064BBBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C503EF11944FC2D0064BBBC /* XCTest.framework */; };
+		4C503EF31944FC2D0064BBBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C503ECF1944FC2D0064BBBC /* Foundation.framework */; };
+		4C503EF41944FC2D0064BBBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C503ED31944FC2D0064BBBC /* UIKit.framework */; };
+		4C503EFC1944FC2D0064BBBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C503EFA1944FC2D0064BBBC /* InfoPlist.strings */; };
+		4C503EFE1944FC2D0064BBBC /* OGSwipeableTableCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503EFD1944FC2D0064BBBC /* OGSwipeableTableCellTests.m */; };
+		4C503F091944FEBF0064BBBC /* OGSwipeableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C503F081944FEBF0064BBBC /* OGSwipeableTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C503EF51944FC2D0064BBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C503EC41944FC2D0064BBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C503ECB1944FC2D0064BBBC;
+			remoteInfo = OGSwipeableTableCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C503ECC1944FC2D0064BBBC /* OGSwipeableTableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGSwipeableTableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C503ECF1944FC2D0064BBBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C503ED11944FC2D0064BBBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C503ED31944FC2D0064BBBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C503ED71944FC2D0064BBBC /* OGSwipeableTableCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OGSwipeableTableCell-Info.plist"; sourceTree = "<group>"; };
+		4C503ED91944FC2D0064BBBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C503EDB1944FC2D0064BBBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C503EDD1944FC2D0064BBBC /* OGSwipeableTableCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OGSwipeableTableCell-Prefix.pch"; sourceTree = "<group>"; };
+		4C503EDE1944FC2D0064BBBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C503EDF1944FC2D0064BBBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C503EE21944FC2D0064BBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C503EE41944FC2D0064BBBC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4C503EE51944FC2D0064BBBC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4C503EE71944FC2D0064BBBC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4C503EE81944FC2D0064BBBC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4C503EEA1944FC2D0064BBBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C503EF01944FC2D0064BBBC /* OGSwipeableTableCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OGSwipeableTableCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C503EF11944FC2D0064BBBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C503EF91944FC2D0064BBBC /* OGSwipeableTableCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OGSwipeableTableCellTests-Info.plist"; sourceTree = "<group>"; };
+		4C503EFB1944FC2D0064BBBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C503EFD1944FC2D0064BBBC /* OGSwipeableTableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGSwipeableTableCellTests.m; sourceTree = "<group>"; };
+		4C503F071944FEBF0064BBBC /* OGSwipeableTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGSwipeableTableViewCell.h; sourceTree = "<group>"; };
+		4C503F081944FEBF0064BBBC /* OGSwipeableTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGSwipeableTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C503EC91944FC2D0064BBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C503ED21944FC2D0064BBBC /* CoreGraphics.framework in Frameworks */,
+				4C503ED41944FC2D0064BBBC /* UIKit.framework in Frameworks */,
+				4C503ED01944FC2D0064BBBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C503EED1944FC2D0064BBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C503EF21944FC2D0064BBBC /* XCTest.framework in Frameworks */,
+				4C503EF41944FC2D0064BBBC /* UIKit.framework in Frameworks */,
+				4C503EF31944FC2D0064BBBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C503EC31944FC2D0064BBBC = {
+			isa = PBXGroup;
+			children = (
+				4C503ED51944FC2D0064BBBC /* OGSwipeableTableCell */,
+				4C503EF71944FC2D0064BBBC /* OGSwipeableTableCellTests */,
+				4C503ECE1944FC2D0064BBBC /* Frameworks */,
+				4C503ECD1944FC2D0064BBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C503ECD1944FC2D0064BBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C503ECC1944FC2D0064BBBC /* OGSwipeableTableCell.app */,
+				4C503EF01944FC2D0064BBBC /* OGSwipeableTableCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C503ECE1944FC2D0064BBBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C503ECF1944FC2D0064BBBC /* Foundation.framework */,
+				4C503ED11944FC2D0064BBBC /* CoreGraphics.framework */,
+				4C503ED31944FC2D0064BBBC /* UIKit.framework */,
+				4C503EF11944FC2D0064BBBC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C503ED51944FC2D0064BBBC /* OGSwipeableTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				4C503EDE1944FC2D0064BBBC /* AppDelegate.h */,
+				4C503EDF1944FC2D0064BBBC /* AppDelegate.m */,
+				4C503EE11944FC2D0064BBBC /* Main.storyboard */,
+				4C503EE41944FC2D0064BBBC /* MasterViewController.h */,
+				4C503EE51944FC2D0064BBBC /* MasterViewController.m */,
+				4C503EE71944FC2D0064BBBC /* DetailViewController.h */,
+				4C503EE81944FC2D0064BBBC /* DetailViewController.m */,
+				4C503F071944FEBF0064BBBC /* OGSwipeableTableViewCell.h */,
+				4C503F081944FEBF0064BBBC /* OGSwipeableTableViewCell.m */,
+				4C503EEA1944FC2D0064BBBC /* Images.xcassets */,
+				4C503ED61944FC2D0064BBBC /* Supporting Files */,
+			);
+			path = OGSwipeableTableCell;
+			sourceTree = "<group>";
+		};
+		4C503ED61944FC2D0064BBBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C503ED71944FC2D0064BBBC /* OGSwipeableTableCell-Info.plist */,
+				4C503ED81944FC2D0064BBBC /* InfoPlist.strings */,
+				4C503EDB1944FC2D0064BBBC /* main.m */,
+				4C503EDD1944FC2D0064BBBC /* OGSwipeableTableCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C503EF71944FC2D0064BBBC /* OGSwipeableTableCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C503EFD1944FC2D0064BBBC /* OGSwipeableTableCellTests.m */,
+				4C503EF81944FC2D0064BBBC /* Supporting Files */,
+			);
+			path = OGSwipeableTableCellTests;
+			sourceTree = "<group>";
+		};
+		4C503EF81944FC2D0064BBBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C503EF91944FC2D0064BBBC /* OGSwipeableTableCellTests-Info.plist */,
+				4C503EFA1944FC2D0064BBBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C503ECB1944FC2D0064BBBC /* OGSwipeableTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C503F011944FC2D0064BBBC /* Build configuration list for PBXNativeTarget "OGSwipeableTableCell" */;
+			buildPhases = (
+				4C503EC81944FC2D0064BBBC /* Sources */,
+				4C503EC91944FC2D0064BBBC /* Frameworks */,
+				4C503ECA1944FC2D0064BBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGSwipeableTableCell;
+			productName = OGSwipeableTableCell;
+			productReference = 4C503ECC1944FC2D0064BBBC /* OGSwipeableTableCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C503EEF1944FC2D0064BBBC /* OGSwipeableTableCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C503F041944FC2D0064BBBC /* Build configuration list for PBXNativeTarget "OGSwipeableTableCellTests" */;
+			buildPhases = (
+				4C503EEC1944FC2D0064BBBC /* Sources */,
+				4C503EED1944FC2D0064BBBC /* Frameworks */,
+				4C503EEE1944FC2D0064BBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C503EF61944FC2D0064BBBC /* PBXTargetDependency */,
+			);
+			name = OGSwipeableTableCellTests;
+			productName = OGSwipeableTableCellTests;
+			productReference = 4C503EF01944FC2D0064BBBC /* OGSwipeableTableCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C503EC41944FC2D0064BBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Odie Edo-Osagie";
+				TargetAttributes = {
+					4C503EEF1944FC2D0064BBBC = {
+						TestTargetID = 4C503ECB1944FC2D0064BBBC;
+					};
+				};
+			};
+			buildConfigurationList = 4C503EC71944FC2D0064BBBC /* Build configuration list for PBXProject "OGSwipeableTableCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C503EC31944FC2D0064BBBC;
+			productRefGroup = 4C503ECD1944FC2D0064BBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C503ECB1944FC2D0064BBBC /* OGSwipeableTableCell */,
+				4C503EEF1944FC2D0064BBBC /* OGSwipeableTableCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C503ECA1944FC2D0064BBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C503EEB1944FC2D0064BBBC /* Images.xcassets in Resources */,
+				4C503EDA1944FC2D0064BBBC /* InfoPlist.strings in Resources */,
+				4C503EE31944FC2D0064BBBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C503EEE1944FC2D0064BBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C503EFC1944FC2D0064BBBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C503EC81944FC2D0064BBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C503EE01944FC2D0064BBBC /* AppDelegate.m in Sources */,
+				4C503EE61944FC2D0064BBBC /* MasterViewController.m in Sources */,
+				4C503EDC1944FC2D0064BBBC /* main.m in Sources */,
+				4C503F091944FEBF0064BBBC /* OGSwipeableTableViewCell.m in Sources */,
+				4C503EE91944FC2D0064BBBC /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C503EEC1944FC2D0064BBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C503EFE1944FC2D0064BBBC /* OGSwipeableTableCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C503EF61944FC2D0064BBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C503ECB1944FC2D0064BBBC /* OGSwipeableTableCell */;
+			targetProxy = 4C503EF51944FC2D0064BBBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C503ED81944FC2D0064BBBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C503ED91944FC2D0064BBBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C503EE11944FC2D0064BBBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C503EE21944FC2D0064BBBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C503EFA1944FC2D0064BBBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C503EFB1944FC2D0064BBBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C503EFF1944FC2D0064BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C503F001944FC2D0064BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C503F021944FC2D0064BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGSwipeableTableCell/OGSwipeableTableCell-Prefix.pch";
+				INFOPLIST_FILE = "OGSwipeableTableCell/OGSwipeableTableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C503F031944FC2D0064BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGSwipeableTableCell/OGSwipeableTableCell-Prefix.pch";
+				INFOPLIST_FILE = "OGSwipeableTableCell/OGSwipeableTableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C503F051944FC2D0064BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OGSwipeableTableCell.app/OGSwipeableTableCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGSwipeableTableCell/OGSwipeableTableCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OGSwipeableTableCellTests/OGSwipeableTableCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C503F061944FC2D0064BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OGSwipeableTableCell.app/OGSwipeableTableCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGSwipeableTableCell/OGSwipeableTableCell-Prefix.pch";
+				INFOPLIST_FILE = "OGSwipeableTableCellTests/OGSwipeableTableCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C503EC71944FC2D0064BBBC /* Build configuration list for PBXProject "OGSwipeableTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C503EFF1944FC2D0064BBBC /* Debug */,
+				4C503F001944FC2D0064BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C503F011944FC2D0064BBBC /* Build configuration list for PBXNativeTarget "OGSwipeableTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C503F021944FC2D0064BBBC /* Debug */,
+				4C503F031944FC2D0064BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C503F041944FC2D0064BBBC /* Build configuration list for PBXNativeTarget "OGSwipeableTableCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C503F051944FC2D0064BBBC /* Debug */,
+				4C503F061944FC2D0064BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C503EC41944FC2D0064BBBC /* Project object */;
+}
